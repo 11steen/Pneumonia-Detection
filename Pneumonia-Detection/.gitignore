@@ -1,4 +1,10 @@
-../
+# Ignore everything by default
+/*
+
+# Allow the project folder (Pneumonia-Detection) and its contents
+!Pneumonia-Detection/
+
+# Ignore specific file types inside the project folder (if you want)
 *.lnk
 *.exe
 *.pdf
@@ -6,4 +12,4 @@
 *.docx
 *.txt
 *.ini
-../*
+
