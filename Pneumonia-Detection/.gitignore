@@ -1,10 +1,4 @@
-# Ignore everything by default
-/*
-
-# Allow the project folder (Pneumonia-Detection) and its contents
-!Pneumonia-Detection/
-
-# Ignore specific file types inside the project folder (if you want)
+# Ignore specific file types (optional but useful)
 *.lnk
 *.exe
 *.pdf
@@ -12,4 +6,11 @@
 *.docx
 *.txt
 *.ini
+
+# Ignore Python cache folders
+__pycache__/
+*.pyc
+
+# Ignore VSCode settings folder
+.vscode/
 
